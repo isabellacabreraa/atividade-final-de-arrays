@@ -84,3 +84,14 @@ console.table(inventarioAlpha);
 
  console.log("Inventário alterado:");
  console.table(inventarioAlpha);
+
+ //Atividade 04: Adiciona 2 artefatos especiais no inventário Beta 
+
+console.log("Inventário Beta:");
+console.table(inventarioBeta);
+
+let adicionaArtefatos02 = inventarioBeta.push(["Amuleto do Tempo", "Marte", 7200]);
+adicionaArtefatos02 = inventarioBeta.push(["Orbe da Gravidade", "Júpiter", 8900]);
+
+console.log("Inventário Beta alterado");
+console.table(inventarioBeta);
