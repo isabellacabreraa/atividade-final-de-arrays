@@ -13,3 +13,6 @@ Utiliza o método push para adicionar três novos artefatos ao final do inventá
 
 ## Desafio 04 ╰(*°▽°*)╯
 Utiliza o método push para adicionar dois novos artefatos especiais de Kepler ao inventário da nave Beta
+
+## Desafio 05 ╰(*°▽°*)╯
+Utiliza o método unshift para adicionar um artefato ao início do inventário da nave Alpha e o método splice para alterá-lo

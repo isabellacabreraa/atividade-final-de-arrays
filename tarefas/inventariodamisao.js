@@ -95,3 +95,16 @@ adicionaArtefatos02 = inventarioBeta.push(["Orbe da Gravidade", "Júpiter", 8900
 
 console.log("Inventário Beta alterado");
 console.table(inventarioBeta);
+
+//Atividade 05: Um item da Alpha precisa aparecer no topo da lista 
+
+console.log("Inventário Alpha:");
+console.table(inventarioAlpha);
+
+let itemDestacado = inventarioAlpha[21];
+inventarioAlpha.unshift(itemDestacado);
+inventarioAlpha.splice(22, 1);
+
+console.log("Inventário alterado:");
+console.table(inventarioAlpha);
+
