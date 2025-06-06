@@ -129,3 +129,13 @@ let removePrimeiroArtefato = inventarioAlpha.shift();
 
 console.log("Inventário alterado:");
 console.table(inventarioAlpha);
+
+//Ativida 08: Remove o primeiro item do inventário Beta
+
+console.log("Inventário Beta:");
+console.table(inventarioBeta);
+
+let removePrimeiroArtefato02 = inventarioBeta.shift();
+
+console.log("Inventário Beta alterado");
+console.table(inventarioBeta);

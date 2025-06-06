@@ -22,3 +22,6 @@ Utiliza o método unshift para mover um artefato ao início do inventário da na
 
 ## Desafio 07 ╰(*°▽°*)╯
 Utiliza o método shift para excluir o primeiro artefato do inventário Alpha que foi inserido no topo da por engano
+
+## Desafio 08 ╰(*°▽°*)╯
+Utiliza o método shift para excluir o primeiro artefato do inventário Beta pois ele pertence a um museu 
