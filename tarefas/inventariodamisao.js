@@ -108,3 +108,15 @@ inventarioAlpha.splice(22, 1);
 console.log("Inventário alterado:");
 console.table(inventarioAlpha);
 
+//Atividade 06: Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+
+console.log("Inventário Beta:");
+console.table(inventarioBeta);
+
+let itemDestacado02 = inventarioBeta[23];
+inventarioBeta.unshift(itemDestacado02);
+inventarioBeta.splice(24, 1);
+
+console.log("Inventário Beta alterado");
+console.table(inventarioBeta);
+
