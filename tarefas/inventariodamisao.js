@@ -120,3 +120,12 @@ inventarioBeta.splice(24, 1);
 console.log("Inventário Beta alterado");
 console.table(inventarioBeta);
 
+//Atividade 07: Remove o primeiro item do inventário Alpha 
+
+console.log("Inventário Alpha:");
+console.table(inventarioAlpha);
+
+let removePrimeiroArtefato = inventarioAlpha.shift();
+
+console.log("Inventário alterado:");
+console.table(inventarioAlpha);

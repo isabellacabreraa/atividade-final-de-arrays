@@ -17,6 +17,8 @@ Utiliza o método push para adicionar dois novos artefatos especiais de Kepler a
 ## Desafio 05 ╰(*°▽°*)╯
 Utiliza o método unshift para adicionar um artefato ao início do inventário da nave Alpha e o método splice para alterá-lo
 
-## Desafio 06╰(*°▽°*)╯
+## Desafio 06 ╰(*°▽°*)╯
 Utiliza o método unshift para mover um artefato ao início do inventário da nave Beta e o método splice para alterá-lo
 
+## Desafio 07 ╰(*°▽°*)╯
+Utiliza o método shift para excluir o primeiro artefato do inventário Alpha que foi inserido no topo da por engano
