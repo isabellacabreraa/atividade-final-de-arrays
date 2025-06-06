@@ -63,3 +63,12 @@ console.table(inventarioAlpha);
 let removeUltimoElemento = inventarioAlpha.pop();
 console.log("Inventário alterado:");
 console.table(inventarioAlpha);
+
+ //Atividade 02: Remove o artefato do final do inventário Beta 
+
+ console.log("Inventário Beta:");
+ console.table(inventarioBeta);
+
+ let removeArtefato = inventarioBeta.pop();
+ console.log("Inventário Beta alterado");
+ console.table(inventarioBeta);
