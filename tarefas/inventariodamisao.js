@@ -72,3 +72,15 @@ console.table(inventarioAlpha);
  let removeArtefato = inventarioBeta.pop();
  console.log("Inventário Beta alterado");
  console.table(inventarioBeta);
+
+ //Atividade 03: Adiciona 3 novos artefatos ao final do inventário Alpha
+
+ console.log("Inventário Alpha:");
+ console.table(inventarioAlpha);
+
+ let adicionaArtefatos = inventarioAlpha.push(["Manuscrito de Voynich", "Terra", 600]);
+ adicionaArtefatos = inventarioAlpha.push(["Mecanismo de Anticítera", "Terra", 2100]);
+ adicionaArtefatos = inventarioAlpha.push(["Bateria de Bagdá", "Terra", 2000]);
+
+ console.log("Inventário alterado:");
+ console.table(inventarioAlpha);
